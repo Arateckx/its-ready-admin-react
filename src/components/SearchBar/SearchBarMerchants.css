@@ -1,7 +1,7 @@
 .searchbar-merchants {
   width: 156px !important;
   height: 40px !important;
-  background: #EEEEEE !important;
+  background: #eeeeee !important;
   box-shadow: -2px 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 10px 0px 0px 10px;
   font-style: normal;
@@ -17,7 +17,7 @@
 }
 
 .search-icon {
-  background: #FFFFFF;
+  background: #ffffff;
 
   display: flex;
   justify-content: center;
@@ -31,13 +31,13 @@
 
 .searchbar-merchants::placeholder {
   font-style: normal !important;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Track;
   font-weight: normal !important;
   font-size: 14px !important;
   line-height: 19px !important;
   align-items: center !important;
   color: #000000 !important;
-
+  text-transform: lowercase !important;
 }
 
 .searchbar-conatiner {
@@ -46,9 +46,9 @@
 
 .searchbar-button {
   border: none;
-  color: #EEEEEE !important;
+  color: #eeeeee !important;
   border-radius: 0px 10px 10px 0px;
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
   box-shadow: -2px 4px 8px rgba(0, 0, 0, 0.1);
 }
 

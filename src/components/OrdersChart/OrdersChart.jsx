@@ -44,7 +44,7 @@ function OrdersChart() {
   return (
     <div>
       <div className="d-flex">
-        <div className="col ml-3 chart-title" style={{ marginLeft: "0px" }}>
+        <div className="col chart-title" style={{ padding: "0px" }}>
           # BESTELLINGEN
         </div>
         <div className="col text-right chart-total">totaal: 30</div>
@@ -58,6 +58,7 @@ function OrdersChart() {
           fontSize: "14px",
           lineHeight: "19px",
           color: "#000000",
+          marginTop: "15px",
         }}
       >
         <div

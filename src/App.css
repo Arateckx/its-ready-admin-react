@@ -13,12 +13,8 @@
   }
 }
 
-
-
 a:hover {
-
   text-decoration: none !important;
-
 }
 
 .btn:focus {
@@ -37,7 +33,6 @@ a:hover {
   min-width: 1px !important;
 }
 
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -49,9 +44,9 @@ a:hover {
   color: white;
 }
 
-[type=button]:not(:disabled),
-[type=reset]:not(:disabled),
-[type=submit]:not(:disabled),
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled),
 button:not(:disabled) {
   cursor: pointer;
   outline: none !important;
@@ -66,7 +61,6 @@ button:not(:disabled) {
   box-shadow: none !important;
 }
 
-
 .App-link {
   color: #61dafb;
 }
@@ -79,4 +73,24 @@ button:not(:disabled) {
   to {
     transform: rotate(360deg);
   }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #b5b268;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #413e38;
 }

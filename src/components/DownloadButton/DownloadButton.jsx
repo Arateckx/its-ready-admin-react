@@ -1,10 +1,10 @@
-import React from 'react';
-import './DownloadButton.css';
-import Button from 'react-bootstrap/Button';
+import React from "react";
+import "./DownloadButton.css";
+import Button from "react-bootstrap/Button";
 
 const DownloadButton = () => {
   return (
-    <div className="float-right mr-5 download-text">
+    <div className="float-right download-text">
       <Button variant="primary">Download cijfers in PDF</Button>
     </div>
   );

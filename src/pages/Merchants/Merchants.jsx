@@ -1,13 +1,13 @@
-import React from 'react';
-import './Merchants.css';
-import SearchBarMerchants from '../../components/SearchBar/SearchBarMerchants';
-import AddButton from '../../components/AddButton/AddButton';
-import MerchantsTable from '../../components/MerchantsTable/MerchantsTable';
+import React from "react";
+import "./Merchants.css";
+import SearchBarMerchants from "../../components/SearchBar/SearchBarMerchants";
+import AddButton from "../../components/AddButton/AddButton";
+import MerchantsTable from "../../components/MerchantsTable/MerchantsTable";
 
 const Merchants = () => {
   return (
-    <div>
-      <div className="d-flex">
+    <div className="container-fluid">
+      <div className="d-flex" style={{ marginTop: "35px" }}>
         <div className="page-title">HANDELAARS</div>
         <div className="ml-auto merchants-components">
           <SearchBarMerchants />

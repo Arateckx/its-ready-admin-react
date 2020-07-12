@@ -44,7 +44,9 @@ function IncomesChart() {
   return (
     <div>
       <div className="d-flex">
-        <div className="col ml-3 chart-title">€ OMZET</div>
+        <div className="col chart-title" style={{ padding: "0px" }}>
+          € OMZET
+        </div>
         <div className="col text-right chart-total">totaal: €60</div>
       </div>
       <div
@@ -56,6 +58,7 @@ function IncomesChart() {
           fontSize: "14px",
           lineHeight: "19px",
           color: "#000000",
+          marginTop: "15px",
         }}
       >
         <div
