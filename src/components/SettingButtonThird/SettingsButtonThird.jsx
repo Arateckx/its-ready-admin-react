@@ -5,7 +5,7 @@ const SettingsButtonThird = () => {
   return (
     <div className="third-button d-flex align-items-center justify-content-center">
       <a href="/settings" className="third-button-text">
-        BEHEERDERS
+        Beheerders
       </a>
     </div>
   );
