@@ -1,9 +1,9 @@
-import React from 'react';
-import './Settings.css';
-import SettingsButton from '../../components/SettingsButton/SettingsButton';
-import SettingsTable from '../../components/SettingsTable/SettingsTable';
-import SettingsButtonFirst from '../../components/SettingsButtonFirst/SettingsButtonFirst';
-import SettingsButtonSecond from '../../components/SettingsButtonSecond/SettingsButtonSecond';
+import React from "react";
+import "./Settings.css";
+import SettingsButton from "../../components/SettingsButton/SettingsButton";
+import SettingsTable from "../../components/SettingsTable/SettingsTable";
+import SettingsButtonFirst from "../../components/SettingsButtonFirst/SettingsButtonFirst";
+import SettingsButtonSecond from "../../components/SettingsButtonSecond/SettingsButtonSecond";
 
 const Settings = () => {
   return (

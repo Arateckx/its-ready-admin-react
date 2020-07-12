@@ -94,3 +94,7 @@ button:not(:disabled) {
 ::-webkit-scrollbar-thumb:hover {
   background: #413e38;
 }
+
+.dropdown-item:active {
+  background-color: #b5b167 !important;
+}

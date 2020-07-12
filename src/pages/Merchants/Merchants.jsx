@@ -7,7 +7,7 @@ import MerchantsTable from "../../components/MerchantsTable/MerchantsTable";
 const Merchants = () => {
   return (
     <div className="container-fluid">
-      <div className="d-flex" style={{ marginTop: "35px" }}>
+      <div className="d-flex" style={{ marginTop: "10px" }}>
         <div className="page-title">HANDELAARS</div>
         <div className="ml-auto merchants-components">
           <SearchBarMerchants />

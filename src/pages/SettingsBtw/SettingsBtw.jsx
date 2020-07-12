@@ -1,7 +1,7 @@
-import React from 'react';
-import './SettingsBtw.css';
-import SettingsButtonThird from '../../components/SettingButtonThird/SettingsButtonThird';
-import SettingsButtonFourth from '../../components/SettingsButtonFourth/SettingsButtonFourth';
+import React from "react";
+import "./SettingsBtw.css";
+import SettingsButtonThird from "../../components/SettingButtonThird/SettingsButtonThird";
+import SettingsButtonFourth from "../../components/SettingsButtonFourth/SettingsButtonFourth";
 
 const SettingsBtw = () => {
   return (

@@ -2,8 +2,6 @@
   display: flex;
   border: 0;
   background-color: transparent;
-
-
 }
 
 .btn {
@@ -14,11 +12,11 @@
 .dropdown-toggle::after {
   display: inline-block;
   margin-left: -0.745em;
-  vertical-align: .255em;
-  border-top: .3em solid;
-  border-right: .3em solid transparent;
+  vertical-align: 0.255em;
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
   border-bottom: 0;
-  border-left: .3em solid transparent;
+  border-left: 0.3em solid transparent;
   margin-top: 1rem;
 }
 
@@ -39,13 +37,15 @@
 }
 
 .menu-items {
-
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 25px;
   color: #000000;
+}
 
+.menu-items:active {
+  background-color: #b5b167 !important;
 }
 
 .divider-bottom {
@@ -63,8 +63,7 @@
   right: 0px !important;
   bottom: auto;
   transform: translate(0px, 50px);
-  background: #F2F2F2;
+  background: #f2f2f2;
   border-radius: 20px;
   width: 190px;
-
 }

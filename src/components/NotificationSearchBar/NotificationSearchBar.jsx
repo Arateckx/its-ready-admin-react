@@ -1,7 +1,7 @@
-import React from 'react';
-import './NotificationSearchBar.css';
-import { ReactComponent as ReactLogo } from '../../assets/search.svg';
-import { FormControl, InputGroup } from 'react-bootstrap';
+import React from "react";
+import "./NotificationSearchBar.css";
+import { ReactComponent as ReactLogo } from "../../assets/search.svg";
+import { FormControl, InputGroup } from "react-bootstrap";
 
 const NotificationSearchBar = () => {
   return (
@@ -13,8 +13,13 @@ const NotificationSearchBar = () => {
         className="searchbar-merchants"
       />
       <InputGroup.Append>
-        <button className="searchbar-button">
-          {' '}
+        <button
+          className="searchbar-button"
+          style={{
+            padding: "0px",
+          }}
+        >
+          {" "}
           <div className="search-icon">
             <ReactLogo />
           </div>
