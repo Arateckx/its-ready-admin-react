@@ -32,7 +32,7 @@ function ProfileModal(props) {
         <Modal.Body>
           <div className="d-flex">
             <div className="col modal-body-title">Naam</div>
-            <div className="col modal-body-title ">Voornam</div>
+            <div className="col modal-body-title ">Voornaam</div>
           </div>
           <div className="d-flex">
             <div className="col modal-body-subtitle">Test</div>

@@ -34,7 +34,7 @@ function ProfileEditModal(props) {
               <input type="text" className="input-profile" />
             </div>
             <div className="col">
-              <div className="modal-body-title">VOORNAM</div>
+              <div className="modal-body-title">VOORNAAM</div>
               <input type="text" className="input-profile" />
               <div className="modal-body-title">GSM</div>
               <input type="text" className="input-profile" />
